@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "bconverter",
+  "id": "breplacer",
   "version": "${version}",
 
   "name": "Block Converter Mod 3",
@@ -8,16 +8,16 @@
   "authors": [],
   "contact": {},
 
-  "license": "GPL-3.0",
+  "license": "CC0",
   "icon": "assets/bconverter/icon.png",
 
   "environment": "*",
   "entrypoints": {
-    "main": ["berries.servermod.bconverter3.BlockConverter"]
+    "main": ["berries.servermod.bconverter3.BlockReplacer"]
   },
 
   "mixins": [
-    "bconverter.mixins.json"
+    "breplacer.mixins.json"
   ],
 
   "depends": {
